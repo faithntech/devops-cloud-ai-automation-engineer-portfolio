@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWS Hybrid Setup Case Study | Shiela</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="demo-header">
+
+    <h1>☁️ Dockerized Cloud Infrastructure Environment (AWS + Terraform + Docker Compose)</h1>
+
+    <p class="demo-subtitle">
+        This project demonstrates a real-world DevOps hybrid architecture combining local containerized development and cloud deployment using Infrastructure as Code (IaC).
+    </p>
+
+    <div class="tech-stack">
+        <span>AWS EC2</span>
+        <span>Terraform</span>
+        <span>Docker Compose</span>
+        <span>Bash</span>
+        <span>NGINX</span>
+    </div>
+
+</header>
+
+<section class="section">
+    <a href="index.html" class="btn-outline">← Back to Portfolio</a>
+</section>
+
+<section class="section">
+
+    <h2>Architecture Breakdown</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Infrastructure Provisioning</h3>
+            <p>Terraform automates EC2 instance, security groups, and key pair creation on AWS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Configuration & Deployment</h3>
+            <p>User data scripts and SSH provisioning automate Docker and application setup on the server.</p>
+        </div>
+
+        <div class="card">
+            <h3>Containerized Application</h3>
+            <p>Docker Compose runs Redmine, MySQL, and supporting services in isolated containers.</p>
+        </div>
+
+        <div class="card">
+            <h3>Access & Networking</h3>
+            <p>Security groups and port mapping expose the application securely via EC2 public IP.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ARCHITECTURE DIAGRAM -->
+<section class="section">
+
+    <h2>Architecture Overview</h2>
+
+    <div class="card" style="text-align:center; padding:30px;">
+
+        <img src="images/architecture.png" 
+             alt="AWS Architecture Diagram"
+             style="
+                width:100%;
+                max-width:900px;
+                border-radius:12px;
+                border:1px solid #30363d;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+             ">
+
+        <p style="margin-top:15px; color:#8b949e;">
+            The architecture demonstrates a fully automated deployment pipeline from infrastructure provisioning to running application containers in a secure AWS environment.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <h2>Implementation Walkthrough</h2>
+
+    <div class="video-grid">
+
+        <div class="video-wrapper single">
+            <iframe src="https://www.youtube.com/embed/mLsIiDWyQfk"></iframe>
+            <p class="video-caption">Hybrid Architecture AWS EC2 + Terraform | Docker-Compose</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Shiela | AWS Cloud & DevOps Portfolio</p>
+</footer>
+
+</body>
+</html>
