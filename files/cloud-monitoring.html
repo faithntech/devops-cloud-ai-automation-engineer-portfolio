@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CI/CD Case Study | Shiela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="demo-header">
+        <h1>AI Cloud Monitoring & Incident Automation</h1>
+
+        <p class="demo-subtitle">
+            Built an AI-powered cloud monitoring and 
+            incident automation platform that proactively monitors infrastructure 
+            and services, detects outages, generates intelligent incident summaries, 
+            and sends real-time notifications to Telegram. The solution combines 
+            cloud infrastructure, observability tools, workflow automation, 
+            and local AI models to reduce manual monitoring efforts and accelerate incident response.
+        </p>
+
+        <div class="tech-stack">
+            <span>AWS EC2</span>
+            <span>Terraform</span>
+            <span>Docker</span>
+            <span>Prometheus</span>
+            <span>Grafana</span>
+            <span>Uptime Kuma</span>
+            <span>n8n</span>
+            <span>Ollama</span>
+            <span>Linux</span>
+            <span>Telegram Bot API</span>
+            <span>Github</span>
+        </div>
+    </header>
+
+    <section class="section hidden">
+        <a href="index.html" class="btn-outline">← Back to Portfolio</a>
+    </section>
+
+    <section class="section hidden">
+        <h2>Architecture Breakdown</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>☁️ AWS Infrastructure</h3>
+                <p>AWS EC2 hosts the monitoring and automation platform.
+      Terraform is used to provision and manage the infrastructure.</p>
+            </div>
+
+            <div class="card">
+    <h3>🐳 Container Layer</h3>
+    <p>
+      Docker Compose deploys and manages Prometheus, Grafana,
+      Uptime Kuma, and n8n services.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>📊 Monitoring Layer</h3>
+    <p>
+      Uptime Kuma monitors service availability, Prometheus
+      collects metrics, and Grafana visualizes dashboards.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>⚙️ Automation Layer</h3>
+    <p>
+      n8n receives monitoring events and automates the
+      incident response workflow.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>🤖 AI Layer</h3>
+    <p>
+      Ollama processes incident data and generates AI-powered
+      summaries with recommended actions.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>📱 Notification Layer</h3>
+    <p>
+      Telegram receives real-time incident alerts and service
+      recovery notifications.
+    </p>
+</div>
+</div>
+</section>
+
+<section class="section hidden">
+<h2>Architecture Overview</h2>
+
+<div class="card architecture-card">
+<img class="monitoring-img" src="images/system-monitoring.png" alt="AI architecture diagram">
+
+<p>
+    Figure 1. AI Cloud Monitoring & Incident Automation Architecture
+Automated cloud monitoring solution combining Prometheus, Grafana, Uptime Kuma, n8n, Ollama, 
+and Telegram to provide real-time monitoring, AI-driven incident analysis, and automated alerting on AWS.
+</p>
+</div>
+</section>
+
+<section class="section hidden">
+  <h2>Implementation Walkthrough</h2>
+
+  <div class="video-grid">
+
+    <div class="video-frame">
+      <iframe src="https://www.youtube.com/embed/7J5Wt_EWzXc" title="Part 1 - Infrastructure Setup" allowfullscreen></iframe>
+      <p class="video-caption">Part 1 - Terraform EC2 Provisioning & Docker Setup</p>
+    </div>
+
+    <div class="video-frame">
+      <iframe src="https://www.youtube.com/embed/AmgoniGT6Sc" title="Part 2 - Docker Compose Deployment" allowfullscreen></iframe>
+      <p class="video-caption">Part 2 - Docker Compose & Prometheus Configuration</p>
+    </div>
+
+    <div class="video-frame">
+      <iframe src="https://www.youtube.com/embed/dfwqFMjCA40" title="Part 3 - Monitoring Stack Configuration" allowfullscreen></iframe>
+      <p class="video-caption">Part 3 - Monitoring Apps Setup & Integration Testing</p>
+    </div>
+
+    <div class="video-frame">
+      <iframe src="https://www.youtube.com/embed/A1UEVOBfJ5o" title="Part 4 - Ollama Installation" allowfullscreen></iframe>
+      <p class="video-caption">Part 4 - Ollama Installation & Configuration</p>
+    </div>
+
+    <div class="video-frame">
+      <iframe src="https://www.youtube.com/embed/bYagc4PB-yU" title="Part 5 - AI Incident Workflow" allowfullscreen></iframe>
+      <p class="video-caption">Part 5 - Ollama, n8n, Webhook & Telegram Workflow</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+<p>© 2026 Shiela | AWS Cloud & DevOps Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
