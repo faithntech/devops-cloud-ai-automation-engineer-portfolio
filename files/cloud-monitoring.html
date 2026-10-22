@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS CI/CD Case Study | Shiela</title>
+    <title>Infrastructure Monitoring & Incident Notifications | Shiela</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,15 +12,13 @@
 
 <body>
     <header class="demo-header">
-        <h1>AI Cloud Monitoring & Incident Automation</h1>
+        <h1>Infrastructure Monitoring & Incident Notifications</h1>
 
         <p class="demo-subtitle">
-            Built an AI-powered cloud monitoring and 
-            incident automation platform that proactively monitors infrastructure 
-            and services, detects outages, generates intelligent incident summaries, 
-            and sends real-time notifications to Telegram. The solution combines 
-            cloud infrastructure, observability tools, workflow automation, 
-            and local AI models to reduce manual monitoring efforts and accelerate incident response.
+            A hands-on project exploring infrastructure monitoring and automated incident notifications.
+            AWS EC2 and Terraform provide the cloud environment, while Docker Compose runs monitoring
+            services including Prometheus, Grafana, Uptime Kuma, and n8n. The workflow explores sending
+            monitoring notifications to Telegram. A local incident-summary component was experimental.
         </p>
 
         <div class="tech-stack">
@@ -77,10 +75,10 @@
   </div>
 
   <div class="card">
-    <h3>🤖 AI Layer</h3>
+    <h3>Incident Summary (Experimental)</h3>
     <p>
-      Ollama processes incident data and generates AI-powered
-      summaries with recommended actions.
+      An optional local-model workflow was explored for summarizing incident information.
+      This component is experimental and is not presented as a production service.
     </p>
   </div>
 
@@ -98,12 +96,12 @@
 <h2>Architecture Overview</h2>
 
 <div class="card architecture-card">
-<img class="monitoring-img" src="images/system-monitoring.png" alt="AI architecture diagram">
+<img class="monitoring-img" src="images/system-monitoring.png" alt="Infrastructure monitoring architecture diagram">
 
 <p>
-    Figure 1. AI Cloud Monitoring & Incident Automation Architecture
-Automated cloud monitoring solution combining Prometheus, Grafana, Uptime Kuma, n8n, Ollama, 
-and Telegram to provide real-time monitoring, AI-driven incident analysis, and automated alerting on AWS.
+    Figure 1. Infrastructure Monitoring & Incident Notification Architecture.
+This hands-on environment combines Prometheus, Grafana, Uptime Kuma, n8n, and Telegram
+to explore service monitoring and incident notifications on AWS.
 </p>
 </div>
 </section>
@@ -130,19 +128,19 @@ and Telegram to provide real-time monitoring, AI-driven incident analysis, and a
 
     <div class="video-frame">
       <iframe src="https://www.youtube.com/embed/A1UEVOBfJ5o" title="Part 4 - Ollama Installation" allowfullscreen></iframe>
-      <p class="video-caption">Part 4 - Ollama Installation & Configuration</p>
+      <p class="video-caption">Part 4 - Optional Local Model Setup</p>
     </div>
 
     <div class="video-frame">
-      <iframe src="https://www.youtube.com/embed/bYagc4PB-yU" title="Part 5 - AI Incident Workflow" allowfullscreen></iframe>
-      <p class="video-caption">Part 5 - Ollama, n8n, Webhook & Telegram Workflow</p>
+      <iframe src="https://www.youtube.com/embed/bYagc4PB-yU" title="Part 5 - Incident Notification Workflow" allowfullscreen></iframe>
+      <p class="video-caption">Part 5 - Incident Workflow, Webhook & Telegram</p>
     </div>
 
   </div>
 </section>
 
 <footer>
-<p>© 2026 Shiela | AWS Cloud & DevOps Portfolio</p>
+<p>© 2026 Shiela | IT Support & Operations Portfolio</p>
 </footer>
 
 <script src="script.js"></script>
