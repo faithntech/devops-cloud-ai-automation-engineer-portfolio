@@ -22,3 +22,9 @@ The deployable static website is in the `files/` directory:
 Configure the Vercel project to use `files` as the Root Directory if this repository's folder structure is deployed as-is. This is a static HTML/CSS/JavaScript site and does not require a build command. Set the output directory to `.` (or leave the framework preset as Other with the root directory set to `files`). After committing changes to the connected Git branch, Vercel should deploy automatically.
 
 Review the published website and test all links after deployment.
+
+
+## Recent portfolio update
+- Updated the homepage introduction and About Me section to better reflect Shiela's practical, adaptable, self-motivated approach.
+- Added a **How I Work** section covering perseverance, adaptability, initiative, collaboration, and attention to detail.
+- Updated the page description for clearer professional positioning.
